@@ -1,37 +1,5 @@
 ## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/KeJiKeJiKeJi/a.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KeJiKeJiKeJi/a.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+CharacterController.SimpleMove(Vector3);以一定的速度移动角色，会自动应用重力。角色控制器不是刚体，但是具备刚体的一些属性。CharacterController.Move();更为复杂的一种运动，每次都绝对运动，不会应用重力。前者会被大量使用
+CharacterController组件的属性Slope Limit是斜率限制，控制角色最大的爬坡斜度 。Skin Width是皮肤的厚度，数值调大，最明显的就是和地面之间的间距变大，也就是角色皮肤变厚了，这个厚度只有在运行的时候才能够看得到。Min Move Distance默认的最小的移动距离，当吧他调大了 但代码中单位移动速度很慢，就移动不了了，和Skin Width一样，都不需要调节他
+点击Gizmos可以让物体在Game视图显示他的Collider组件
+一个物体附加了角色控制器组件后，和角色控制器组件thub.com/contact) and we’ll help you sort it out.
